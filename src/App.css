@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -13,26 +15,47 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pageContainer{
+  border: 1px solid #ddd;
+  margin-top:15px;
 }
 
-.App-link {
-  color: #61dafb;
+.heading{
+  background: #a6bad2;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contentSection{
+  padding: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group{
+  margin-bottom: 15px;
+}
+.inputSection{
+  border-bottom: 1px solid #ddd;
+}
+#seatArrangements{
+  padding: 10px;
+}
+
+.cell{
+  display: inline-block;
+  padding: 10px;
+  border: 5px solid #fff;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.sectionContainer{
+  display: inline-block;
+  vertical-align: top; 
+  padding: 10px;
+}
+.sectionDiv{
+  padding: 10px;
+  border: 1px solid #ddd;
 }
